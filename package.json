@@ -4,6 +4,7 @@
   "description": "For browser E2E testing",
   "main": "index.js",
   "scripts": {
+    "test-firefox": "test",
     "test-firefox": "npx playwright test --project firefox --headed",
     "test-firefox-headless": "npx playwright test --project firefox",
     "test-chrome": "npx playwright test --headed",
@@ -24,8 +25,12 @@
   "author": "Abhishek",
   "license": "ISC",
   "devDependencies": {
+    "@eslint/js": "^9.31.0",
     "@playwright/test": "^1.54.1",
-    "@types/node": "^20.11.5"
+    "@types/node": "^20.11.5",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0",
+    "typescript-eslint": "^8.38.0"
   },
   "dependencies": {
     "dotenv": "^16.3.2",

@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["ES2015","DOM"],
+    "esModuleInterop": true,                             /*This is for "path" module import*/
+    "paths": {                                           /* Specify a set of entries that re-map imports to additional lookup locations. */
+      "@pages/*":["./Pages/*"],
+    }                             
+  }
+}
